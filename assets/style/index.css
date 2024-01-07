@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    /* Navbar styles go here */
+}
+
+.banner {
+    background: url('../images/background.png') center/cover;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+ /*Make Images inside .actiosn class round*/
+.action img {
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+}
+.action {
+    text-align: center;
+}
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 650px) {
+    .actions {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .action {
+        margin-bottom: 20px;
+    }
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
