@@ -66,3 +66,9 @@ p {
     background-color: #FF4500;
     color: #fff;
 }
+.rounded-image {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 120px;
+    height: 120px;
+}
