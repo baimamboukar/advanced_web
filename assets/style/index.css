@@ -81,11 +81,15 @@ nav {
 }
 
 footer {
-    background: #333;
+    background: darkblue;
     color: white;
     text-align: center;
     padding: 10px;
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+footer a {
+    color: orange;
+    text-decoration: none;
 }
