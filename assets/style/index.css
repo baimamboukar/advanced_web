@@ -52,14 +52,14 @@ nav {
     margin: 20px auto;
     padding: 20px;
     color: white;
+    margin: 20px auto 100px;
+    border-bottom: 4px solid orangered;
 }
 
 .custom-box {
     display: flex;
-    border-bottom: 2PX solid orangered;
     align-items: center;
-
-    margin-bottom: 20px;
+    
 }
 
 .rounded-image {
