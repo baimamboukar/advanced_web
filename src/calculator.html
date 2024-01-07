@@ -12,18 +12,34 @@
   </head>
   <body>
     <div class="calculator">
-      <input type="text" id="firstNumber" placeholder="Enter first number" />
-      <input type="text" id="secondNumber" placeholder="Enter second number" />
+      <div class="input-group">
+        <label for="firstNumber">First Number:</label>
+        <input type="text" id="firstNumber" placeholder="Enter first number" />
+      </div>
+
+      <div class="input-group">
+        <label for="secondNumber">Second Number:</label>
+        <input
+          type="text"
+          id="secondNumber"
+          placeholder="Enter second number"
+        />
+      </div>
+
+      <!-- <div class="input-container">
+        <div class="input-border"></div>
+      </div> -->
 
       <div class="buttons">
         <button id="addButton">Add</button>
         <button id="subtractButton">Subtract</button>
         <button id="multiplyButton">Multiply</button>
         <button id="divideButton">Divide</button>
-        <button id="clearButton">Clear</button>
+        <button id="clearButton" class="deleteButton">Clear</button>
       </div>
 
       <div id="result" class="result"></div>
+      <div id="warning" class="warning"></div>
     </div>
 
     <script src="../assets/js/calculator.js"></script>
