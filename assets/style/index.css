@@ -47,8 +47,8 @@ nav {
 
 .custom-section {
     background-color: darkblue;
-    height: 320px;
-    width: 50%;
+    height: 200px;
+    width: 40%;
     margin: 20px auto;
     padding: 20px;
     color: white;
@@ -65,8 +65,8 @@ nav {
 .rounded-image {
     border-radius: 50%;
     margin-right: 20px;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
 }
 
 .text-content {
