@@ -35,3 +35,34 @@ p {
     margin-top: 20px;
     color: #333;
 }
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.buttons-container a{
+   text-decoration: none;
+   margin-bottom: 12px;
+}
+
+.button {
+    padding: 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.darkblue {
+    background-color: #1E90FF;
+    color: #fff;
+}
+
+.orangered {
+    background-color: #FF4500;
+    color: #fff;
+}
