@@ -1,0 +1,37 @@
+ body {
+     font-family: "Raleway", Arial, sans-serif;
+     background-color: #f0f0f0;
+     text-align: center;
+     padding: 50px;
+ }
+.container {
+    background-color: whitesmoke;
+    padding: 50px;
+    border-radius: 14px;
+    width: 70%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #1E90FF;
+    text-decoration: none;
+}
+
+.github-stats {
+    margin-top: 20px;
+    color: #333;
+}
