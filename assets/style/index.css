@@ -1,11 +1,11 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Raleway', Arial, sans-serif;
 }
 
-nav {
+/* nav {
     /* Navbar styles go here */
-}
+ */
 
 .banner {
     background: url('../images/background.png') center/cover;
