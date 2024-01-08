@@ -1,32 +1,27 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Add event listeners to buttons
-  document.getElementById("addButton").addEventListener("click", function () {
+  document.getElementById("addButton").addEventListener("click", () => {
     performOperation("add");
   });
 
-  document
-    .getElementById("subtractButton")
-    .addEventListener("click", function () {
-      performOperation("subtract");
-    });
+  document.getElementById("subtractButton").addEventListener("click", () => {
+    performOperation("subtract");
+  });
 
-  document
-    .getElementById("multiplyButton")
-    .addEventListener("click", function () {
-      performOperation("multiply");
-    });
+  document.getElementById("multiplyButton").addEventListener("click", () => {
+    performOperation("multiply");
+  });
 
-  document
-    .getElementById("divideButton")
-    .addEventListener("click", function () {
-      performOperation("divide");
-    });
+  document.getElementById("divideButton").addEventListener("click", () => {
+    performOperation("divide");
+  });
 
   document
     .getElementById("clearButton")
     .addEventListener("click", clearCalculator);
 });
 
+// Perform operation and display result
 function performOperation(operation) {
   const firstNumber = parseFloat(document.getElementById("firstNumber").value);
   const secondNumber = parseFloat(

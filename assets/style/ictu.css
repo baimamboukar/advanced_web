@@ -23,6 +23,10 @@ nav {
     padding: 0;
     background-color: darkslategrey;
 }
+.banner p{
+    font-size: .7em;
+    background-color: darkslategrey;
+}
 .actions {
     display: flex;
     justify-content: space-around;
