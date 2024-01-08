@@ -13,10 +13,16 @@ nav {
     height: 200px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     color: white;
 }
-
+.banner h1 {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    background-color: darkslategrey;
+}
 .actions {
     display: flex;
     justify-content: space-around;
