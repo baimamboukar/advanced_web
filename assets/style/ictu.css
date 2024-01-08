@@ -38,6 +38,7 @@ nav {
     border-radius: 50%;
     width: 240px;
     height: 240px;
+    border: 2px solid orangered;
 }
 .action {
     text-align: center;
